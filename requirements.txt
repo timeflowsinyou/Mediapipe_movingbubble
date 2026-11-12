@@ -1,0 +1,8 @@
+# Tested hardware/software combinations may vary.
+# This source uses the legacy MediaPipe Solutions API.
+mediapipe==0.10.21
+pygame>=2.5,<3
+mss>=9,<11
+numpy>=1.26,<2
+# MediaPipe brings an OpenCV build as a dependency; avoid installing
+# opencv-python and opencv-contrib-python side by side unnecessarily.
