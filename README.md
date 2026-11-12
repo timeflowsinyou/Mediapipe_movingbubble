@@ -5,11 +5,10 @@
 An interactive human–computer interaction prototype combining **MediaPipe Hands**, **OpenCV**, **MSS screen capture**, and **Pygame**. The application recognizes the orientation of selected finger landmarks and steers a field of 50 animated bubbles in four directions. It was designed for a Windows dual-monitor setup: input is captured from a video displayed on the first monitor, while a borderless, always-on-top animation runs on the second monitor.
 
 ## Demo
+![Real-time gesture-controlled moving bubbles](media/demo.gif)
 
-A demonstration video can be placed at `media/demo.mp4`. See [media/README.md](media/README.md) for advice on adding a short video and a GIF preview. Once added, include a direct link here, for example: `[Watch the demo](media/demo.mp4)`.
+The animation demonstrates real-time hand gesture recognition and bubble motion control using MediaPipe and Pygame.
 
-<!-- Optional: add a short preview at media/demo.gif and uncomment this line. -->
-<!-- ![Moving Bubbles demonstration](media/demo.gif) -->
 
 ## Features
 
